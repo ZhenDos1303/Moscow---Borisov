@@ -27,7 +27,10 @@ class MyWidget(QMainWindow):
         self.fl = False
 
     def draw(self):
-        self.qp.setBrush(QColor(250, 200, 0))
+        a = random.randint(100, 350)
+        b = random.randint(100, 350)
+        c = random.randint(10, 50)
+        self.qp.setBrush(QColor(a, b, c))
         x = random.randint(100, 350)
         y = random.randint(100, 350)
         z = random.randint(10, 50)
