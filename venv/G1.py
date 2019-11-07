@@ -1,2 +1,1 @@
-print('Леша', end=' ')
-print('какашка')
+print('«My first git-repo»')
